@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+.board{
+    width: 400px;
+    height: 400px;
+    display: grid;
+    padding: none;
+    margin-bottom: 25px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mode {
+    margin-bottom: 20px;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+.etch {
+    color: red;
+}
+
+.a {
+    color: green;
+}
+
+.sketch {
+    color: blue;
+}
+
+.input-field {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.black:hover {
+    background-color: black;
+    color: white;
+}
+
+.red:hover {
+    background-color: red;
+    color: white;
+}
+
+.random:hover {
+    background: linear-gradient(#1e9600, #fff200, #ff0000);
+    color: white;
+}
+
+.erase:hover {
+    background-color: white;
+    color: white;
+}
+
+.reset:hover {
+    background-color: green;
+    color: white;
+}
